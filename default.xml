@@ -11,7 +11,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk,tradefed" remote="aosp" >
+  <project path="build" name="My-AOSP-build" groups="pdk,tradefed" remote="USBhost" revision="master"  >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
