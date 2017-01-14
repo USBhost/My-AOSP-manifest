@@ -57,6 +57,7 @@
   <project path="device/google/dragon-kernel" name="device/google/dragon-kernel" groups="device,dragon" clone-depth="1" remote="aosp" />
   <project path="device/google/marlin" name="device/google/marlin" groups="device,marlin" remote="aosp" />
   <project path="device/google/marlin-kernel" name="device/google/marlin-kernel" groups="device,marlin" clone-depth="1" remote="aosp" />
+  <project path="vendor/pure" name="My-AOSP-vendor" remote="USBhost" revision="master" />
   <project path="device/htc/flounder" name="android_device_htc_flounder" groups="device,flounder" remote="USBhost" revision="master" />
   <project path="device/htc/flounder-kernel" name="FIRE-ICE" groups="device,flounder" remote="USBhost" revision="N10.5.y" clone-depth="1" />
   <project path="device/huawei/angler" name="device/huawei/angler" groups="device,angler,broadcom_pdk" remote="aosp" />
