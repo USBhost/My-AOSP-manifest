@@ -21,7 +21,9 @@ After syncing is done, use these commands to build:
     1.) . build/envsetup.sh
     2.) brunch xxxx yyyy -jzzzz
     
-    xxxx= device name aka shamu
+    xxxx= device name aka flounder
     yyyy= build type (user,userdebug,eng)*
     zzzz= number of cpu threads
+
+    "brunch flounder userdebug -j12" like that
 
