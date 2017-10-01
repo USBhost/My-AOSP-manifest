@@ -11,7 +11,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="My-AOSP-build" groups="pdk" remote="USBhost" revision="master"  >
+  <project path="build" name="My-AOSP-build" groups="pdk" remote="USBhost" revision="N"  >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
@@ -59,7 +59,7 @@
   <project path="device/google/marlin" name="device/google/marlin" groups="device,marlin" remote="aosp" />
   <project path="device/google/marlin-kernel" name="device/google/marlin-kernel" groups="device,marlin" clone-depth="1" remote="aosp" />
   <project path="vendor/pure" name="My-AOSP-vendor" remote="USBhost" revision="master" />
-  <project path="device/htc/flounder" name="android_device_htc_flounder" groups="device,flounder,pdk" remote="USBhost" revision="master" />
+  <project path="device/htc/flounder" name="android_device_htc_flounder" groups="device,flounder,pdk" remote="USBhost" revision="N" />
   <project path="device/htc/flounder-kernel" name="FIRE-ICE" groups="device,flounder,pdk" clone-depth="1" remote="USBhost" revision="N10.5.y" />
   <project path="device/huawei/angler" name="device/huawei/angler" groups="device,angler,broadcom_pdk,pdk" remote="aosp" />
   <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk,pdk" clone-depth="1" remote="aosp" />
@@ -326,7 +326,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" remote="aosp" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="aosp" />
-  <project path="frameworks/base" name="My-AOSP-base" groups="pdk-cw-fs,pdk-fs" remote="USBhost" revision="master" />
+  <project path="frameworks/base" name="My-AOSP-base" groups="pdk-cw-fs,pdk-fs" remote="USBhost" revision="N" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
