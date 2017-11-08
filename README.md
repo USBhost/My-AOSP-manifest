@@ -10,7 +10,7 @@ To build My AOSP from source, you'll need to be familiar with
 
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/USBhost/My-AOSP-manifest.git -b master
+	repo init -u https://github.com/USBhost/My-AOSP-manifest.git -b O
 
 Then to sync source, use this command:
 
@@ -19,11 +19,7 @@ Then to sync source, use this command:
 After syncing is done, use these commands to build:
 
     1.) . build/envsetup.sh
-    2.) brunch xxxx yyyy -jzzzz
-    
-    xxxx= device name aka flounder
-    yyyy= build type (user,userdebug,eng)*
-    zzzz= number of cpu threads
+    2.) lunch ## choose flounder
 
-    "brunch flounder userdebug -j12" like that
+    "make otapackage -j12" like that
 

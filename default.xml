@@ -27,7 +27,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="device/htc/flounder" name="android_device_htc_flounder" groups="device,flounder,pdk" remote="USBhost" revision="O" />
-  <project path="device/htc/flounder-kernel" name="FIRE-ICE" groups="device,flounder,pdk" clone-depth="1" remote="USBhost" revision="N10.5.y" />
+  <project path="device/htc/flounder-kernel" name="FIRE-ICE" groups="device,flounder,pdk" clone-depth="1" remote="USBhost" revision="N10.6.y" />
   <project path="frameworks/base" name="My-AOSP-base" groups="pdk-cw-fs,pdk-fs" remote="USBhost" revision="O" />
   <project path="art" name="platform/art" groups="pdk" remote="aosp" />
   <project path="bionic" name="platform/bionic" groups="pdk" remote="aosp" />
