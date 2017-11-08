@@ -10,7 +10,7 @@ To build My AOSP from source, you'll need to be familiar with
 
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/USBhost/My-AOSP-manifest.git -b master
+	repo init -u https://github.com/USBhost/My-AOSP-manifest.git -b N
 
 Then to sync source, use this command:
 
